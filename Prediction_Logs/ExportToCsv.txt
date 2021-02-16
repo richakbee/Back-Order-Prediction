@@ -1,0 +1,2 @@
+2021-02-15/19:35:03		File exported succesfully at Prediction_FileFromDB/InputFile.csv 
+2021-02-15/19:46:07		File exported succesfully at Prediction_FileFromDB/InputFile.csv 

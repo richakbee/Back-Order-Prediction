@@ -1,0 +1,5 @@
+2021-02-15/19:35:03		 Good Raw directory at location Prediction_Raw_files_validated/Good_Raw deleted succesfully
+2021-02-15/19:35:03		error 'str' object has no attribute 'file' while Archiving all bad data to location PredictionArchiveBadData\BadData_2021-02-15_193503
+2021-02-15/19:46:00		 Bad Raw directory at location Prediction_Raw_files_validated/Bad_Raw deleted succesfully
+2021-02-15/19:46:07		 Good Raw directory at location Prediction_Raw_files_validated/Good_Raw deleted succesfully
+2021-02-15/19:46:07		error 'str' object has no attribute 'file' while Archiving all bad data to location PredictionArchiveBadData\BadData_2021-02-15_194607

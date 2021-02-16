@@ -1,0 +1,8 @@
+2021-02-15/19:31:13		 Good Raw directory at location Training_Raw_files_validated/Good_Raw deleted succesfully
+2021-02-15/19:31:13		Archived backOrder_10052028_1903219.csvas bad data at location TrainingArchiveBadData\BadData_2021-02-15_193113
+2021-02-15/19:31:13		Archived backOrder_10052029_210320.csvas bad data at location TrainingArchiveBadData\BadData_2021-02-15_193113
+2021-02-15/19:31:13		Archived backOrder_100527_120218.csvas bad data at location TrainingArchiveBadData\BadData_2021-02-15_193113
+2021-02-15/19:31:13		Archived Wafer12_20012.csvas bad data at location TrainingArchiveBadData\BadData_2021-02-15_193113
+2021-02-15/19:31:13		Archived Waferdefault_15010_130532.csvas bad data at location TrainingArchiveBadData\BadData_2021-02-15_193113
+2021-02-15/19:31:13		Archived Wafer_text_130532.csvas bad data at location TrainingArchiveBadData\BadData_2021-02-15_193113
+2021-02-15/19:31:13		deleted the Bad Raw Data folder successfully

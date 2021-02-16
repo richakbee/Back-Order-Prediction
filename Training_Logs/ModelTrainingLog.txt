@@ -1,0 +1,33 @@
+2021-02-15/19:31:13		Training started!!
+2021-02-15/19:31:13		 Successful in getting Training_FileFromDB/InputFile.csv data
+2021-02-15/19:31:13		Entered encode_categorical_columns of preprocessing class!!
+2021-02-15/19:31:13		Encoding successful. Exited encode_categorical_columns of preprocessing class!!
+2021-02-15/19:31:13		Entered remove_columns of preprocessing class!!
+2021-02-15/19:31:13		Column removal Successful.Exited the remove_columns method of the Preprocessor class!!
+2021-02-15/19:31:13		Entered is_null_present in class preprocessing. Checking for null values in training data
+2021-02-15/19:31:13		Entered separate_features_and_label of class preprocessing!!
+2021-02-15/19:31:13		Label separation successful .Exited separate_features_and_label of class preprocessing!!
+2021-02-15/19:31:13		Entered get_col_with_zero_std_deviation of preprocessing class!!
+2021-02-15/19:31:13		Column search for Standard Deviation of Zero Successful. Exited the get_columns_with_zero_std_deviation method of the Preprocessor class!!
+2021-02-15/19:31:13		Entered scale_numerical_columns of preprocessing class!!
+2021-02-15/19:31:13		Scaling numerical columns successful.Exited scale_numerical_columns of preprocessing class!!
+2021-02-15/19:31:13		Entered pcaTransformation of preprocessing class!!
+2021-02-15/19:31:14		saved explained variance plot
+2021-02-15/19:31:15		saved scree plot
+2021-02-15/19:31:15		saved feature importance plot
+2021-02-15/19:31:15		PCA transformation successful. Exited the pcaTransformation method of the Preprocessor class!!
+2021-02-15/19:31:15		entered get_best_model method in class model_finder!! 
+2021-02-15/19:31:15		making calls to functions for get_best_params for each model in tuner class !! 
+2021-02-15/19:31:15		Entered get_params_for_catboost of tuner class!!
+2021-02-15/19:32:10		get best params for xgboost successful{'best_model_min_trees': 1, 'boost_from_average': False, 'boosting_type': 'Plain', 'bootstrap_type': 'MVS', 'border_count': 254, 'class_names': [0, 1], 'classes_count': 0, 'depth': 6, 'eval_metric': 'Logloss', 'feature_border_type': 'GreedyLogSum', 'grow_policy': 'SymmetricTree', 'iterations': 1000, 'l2_leaf_reg': 3, 'leaf_estimation_backtracking': 'AnyImprovement', 'leaf_estimation_iterations': 10, 'leaf_estimation_method': 'Newton', 'learning_rate': 0.021846000105142593, 'loss_function': 'Logloss', 'max_leaves': 64, 'min_data_in_leaf': 1, 'model_shrink_mode': 'Constant', 'model_shrink_rate': 0, 'model_size_reg': 0.5, 'nan_mode': 'Min', 'penalties_coefficient': 1, 'posterior_sampling': False, 'random_seed': 786, 'random_strength': 1, 'rsm': 1, 'sampling_frequency': 'PerTree', 'score_function': 'Cosine', 'sparse_features_conflict_fraction': 0, 'subsample': 0.800000011920929, 'task_type': 'CPU', 'use_best_model': False}.Exited get_params_for_xgboost of tuner class!!
+2021-02-15/19:32:10		Entered get_params_for_random_forest of tuner class!!
+2021-02-15/19:32:12		get best params for random_forest successful .Exited get_params_for_random_forest of tuner class!!
+2021-02-15/19:32:12		Entered get_params_for_logistic_reg of tuner class!!
+2021-02-15/19:32:13		get best params for logistic_reg successful .{'C': 1.0, 'class_weight': None, 'dual': False, 'fit_intercept': True, 'intercept_scaling': 1, 'l1_ratio': None, 'max_iter': 1000, 'multi_class': 'auto', 'n_jobs': None, 'penalty': 'l2', 'random_state': 786, 'solver': 'lbfgs', 'tol': 0.0001, 'verbose': 0, 'warm_start': False}.Exited get_params_for_logistic_reg of tuner class!!
+2021-02-15/19:32:13		Entered get_params_for_lightgbm of tuner class!!
+2021-02-15/19:32:15		get best params for lightgbm successful .{'boosting_type': 'gbdt', 'class_weight': None, 'colsample_bytree': 1.0, 'importance_type': 'split', 'learning_rate': 0.1, 'max_depth': -1, 'min_child_samples': 20, 'min_child_weight': 0.001, 'min_split_gain': 0.0, 'n_estimators': 100, 'n_jobs': -1, 'num_leaves': 31, 'objective': None, 'random_state': 786, 'reg_alpha': 0.0, 'reg_lambda': 0.0, 'silent': True, 'subsample': 1.0, 'subsample_for_bin': 200000, 'subsample_freq': 0}.Exited get_params_for_lightgbm of tuner class!!
+2021-02-15/19:32:15		Calls to functions for get_best_params for each model in tuner class ended successfully!! 
+2021-02-15/19:32:16		Exited the get_best_model method of the Clustering class. 
+2021-02-15/19:32:16		Entered save_model of model_functions class!!
+2021-02-15/19:32:16		saving the model random_forest successfully.Exited the save_model of model_functions class!!
+2021-02-15/19:32:16		Training Successful!!
